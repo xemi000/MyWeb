@@ -5,35 +5,76 @@
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	 <meta http-equiv="x-ua-compatible" content="ie=edge">
 	 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	 <style>
+		/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+		.row.content {height: 1500px}
+		
+		/* Set gray background color and 100% height */
+		.sidenav {
+		  background-color: rgba(0, 0, 0, 0.893);
+		  height: 100%;
+		  width: 25%;
+		  align-items: center;
+		  align-content: center;
+		  color: white;
+		}
+		.jumbotron{
+			background-color: white;
+			color:black;
+			align-items: center;
+			align-content: center;
+			text-align: center;
+
+		}
+		
+		/* Set black background color, white text and some padding */
+		footer {
+		  background-color: #555;
+		  color: white;
+		  padding: 15px;
+		}
+		.active.li {
+			color: white;
+			
+		}
+		
+		/* On small screens, set height to 'auto' for sidenav and grid */
+		@media screen and (max-width: 767px) {
+		  .sidenav {
+			height: auto;
+			padding: 15px;
+		  }
+		  .row.content {height: auto;}
+		
+		}
+	  </style>
 	<title>Zemichael Amsalu </title>
 </head>
 <body>
 <div class="container-fluid">
 	<div class="row content">>
-			<div class="col-sm-3 sidenav">
-				<img src="image/xemi.jpeg" style="width:80px;height:80px;">
+			<div class="col-sm-3 col-lg-1 sidenav sidenav-toggleable-md sidenav-fixed-left">
+				<button class="sidenav-toggler sidenav-toggler-top" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="sidenav-toggler-icon"></span>
+				</button>
+				<div class="image">
+				<img src="image/xemi.jpeg" class="img-thumbnail" alt="cinque terre" width="40" height="43">
+				</div>
 				<h4>Zemichael Amsalu </h4>
-			<ul class="nav nav-pills nav-stacked">
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="contact.html">AboutMe</a></li>
-				<li><a href="cv.html">Curriculum Vitae</a></li>
-				<li><a href="hobbies.html">Hobbies</a></li>
-			</ul><br>
-			</div>
+				<ul class="nav nav-pills nav-stacked">
+					<li class="active"><a href="index.html">Home</a></li><br>
+					<li><a href="contact.html">AboutMe</a></li><br>
+					<li><a href="cv.html">Curriculum Vitae</a></li><br>
+					<li><a href="hobbies.html">Hobbies</a></li><br>
+			   	</ul>
+			
 		  
-	</div>
+			</div>
 	
-	
-	
-
-	
-
-
-</header>
-
-
-
 		<div class="col sm-9">
+			<div class="jumbotron">
+				<h1> Home </h1>
+			</div>
 			<div class="row">
 				<div class="col-12 col-sm-4 order-sm-first col-md-3">
 			 			<h2>current position</h2>
@@ -118,17 +159,10 @@
 				</div>
 			</div>
 
-			<footer>
-				<div class="container">
-					<div class="row">             
-						<div class="col-7 col-sm-5">
-							se.zemichael.amsalu@gmail.com<br>
-							zemichaelamsalu@yahoo.com
-						</div>
-					</div>
-				</div>
-			</footer>
-							
+			
+		</div>
+	</div>
+</div>						
 		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
