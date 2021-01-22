@@ -1,69 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
-<title>contact page</title>
-<table>
-	<tr>
-		<td>
-			<img src="image/xemi.jpeg" style="width:80px;height:80px;">
-		</td>
-		<td>
-			ZEMICHAEL.AMSALU
-		</td>
-		<td   width="100%" align="right" ><textarea name="comment" id="comment" cols="17" rows="1"></textarea> <input type="submit" value="Search This site"></td>
-	</tr>
+	<meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	 <meta http-equiv="x-ua-compatible" content="ie=edge">
+	 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	 <style>
+		/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+		.row.content {height: 1500px}
+		
+		/* Set gray background color and 100% height */
+		.sidenav {
+		  background-color: rgba(0, 0, 0, 0.893);
+		  height: 100%;
+		  width: 25%;
+		  align-items: center;
+		  align-content: center;
+		  color: white;
+		}
+		.jumbotron{
+			background-color: white;
+			color:black;
+			align-items: center;
+			align-content: center;
+			text-align: center;
 
-</table>
+		}
+		
+		/* Set black background color, white text and some padding */
+		footer {
+		  background-color: #555;
+		  color: white;
+		  padding: 15px;
+		}
+		.active.li {
+			color: white;
+			
+		}
+		
+		/* On small screens, set height to 'auto' for sidenav and grid */
+		@media screen and (max-width: 767px) {
+		  .sidenav {
+			height: auto;
+			padding: 15px;
+		  }
+		  .row.content {height: auto;}
+		
+		}
+	  </style>
+	<title>Zemichael Amsalu </title>
 </head>
-<hr>
 <body>
-<table border="0.1">
-	<tr>
-		<td height="10%" align="left" width="10%">
-			se.zemichael.amsalu@gmail.com<br>
-			zemichaelamsalu@yahoo.com
-			<hr>
+<div class="container-fluid">
+	<div class="row content">>
+			<div class="col-sm-3 col-lg-1 sidenav sidenav-toggleable-md sticky-left">
+				<button class="sidenav-toggler sidenav-toggler-top" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="sidenav-toggler-icon"></span>
+				</button>
+				<div class="image">
+				<img src="image/xemi.jpeg" class="img-thumbnail" alt="cinque terre" width="40" height="43">
+				</div>
+				<h4>Zemichael Amsalu </h4>
+				<ul class="nav nav-pills nav-stacked">
+					<li class="active"><a href="index.html">Home</a></li><br>
+					<li><a href="contact.html">AboutMe</a></li><br>
+					<li><a href="cv.html">Curriculum Vitae</a></li><br>
+					<li><a href="hobbies.html">Hobbies</a></li><br>
+			   	</ul>
 			
-			<a href="index.html">Home</a><br>
-			<a href="contact.html">AboutMe</a><br>
-			<a href="cv.html">curriculum vitae</a><br>
-			<a href="hobbies.html">Hobbies</a>
-			<hr>
-		</td>
-		<td width="100%">
-			<h3>ABOUT ME</h3>
-
-			<p>7 facts:</p>
-
-			<ol>
-				<li>I was born in dessie in 1991</li>
-				<li>I am happily single </li>
-				<li>Being ethiopian i speak amharic and also a little Geez, i am also conversational in english</li>
-				<li>I love listening music. I like hip-pop, rnb , pop and rock musics</li>
-				<li>I enjoy football, basketball and ground tennis</li>
-				<li>I try to live within the bound of theology</li>
-				<li>I have on brother</li>
-			</ol>
-			<table>
-			<h4>My Gallary</h4>
+		  
+			</div>
+	
+		<div class="col sm-9">
+			<div class="jumbotron">
+				<h1> ABOUT ME</h1>
+			</div>
 			
-			<tr>
-			 <td><img src="image/pic1.png" style="width:500px;height:500px;"></td>
-			</tr>
-			<tr>
-			<td><img src="image/pic2.png" style="width:500px;height:500px;"></td>
-			</tr>
-			<tr>		
-			<td><img src="image/pic3.png"style="width:500px;height:500px;"></td>
-			</tr>
-			</tr>
-			</table>
+				
 
-		</td>
-		
-		
-</table>
 
+			<div class="row">
+				<div class="col-12 col-sm-4 col-md-8">
+					
+
+					<p>7 facts:</p>
+		
+					<ol>
+						<li>I was born in dessie in 1991</li>
+						<li>I am happily single </li>
+						<li>Being ethiopian i speak amharic and also a little Geez, i am also conversational in english</li>
+						<li>I love listening music. I like hip-pop, rnb , pop and rock musics</li>
+						<li>I enjoy football, basketball and ground tennis</li>
+						<li>I try to live within the bound of theology</li>
+						<li>I have on brother</li>
+					</ol>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col col-sm col-md">
+					<h4>My Gallary</h4>
+					<img src="image/pic1.png" style="width:300px;height:270px;">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col col-sm col-md">
+					<img src="image/pic2.png" style="width:300px;height:270px;">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col col-sm col-md">
+					<img src="image/pic3.png" style="width:300px;height:270px;">
+					
+				</div>
+			</div>
+
+			
+			
+		</div>
+	</div>
+</div>						
+		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>
